@@ -18,33 +18,8 @@ Today is matchday 2 and it is between the most loved team Chennai Super Kings an
 
 ### Solution
 ```cpp
-class Solution {
-  public:
-    vector<int> max_of_subarrays(vector<int> arr, int n, int k) {
 
-        priority_queue<pair<int, int>> MAXQ;
-
-        for(int i = 0; i < k; ++i) {
-            MAXQ.push({arr[i], i});
-        }
-        
-        vector<int>ans;
-        ans.push_back(MAXQ.top().first);
-
-        for(int i = k; i < n; ++i) {
-            MAXQ.push({arr[i], i});
-            
-            while(!MAXQ.empty() && MAXQ.top().second <= i - k) {
-                MAXQ.pop();
-            }
-            
-            ans.push_back(MAXQ.top().first);
-        }
-        
-        return ans;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148422429-9b5e7888-36a7-423a-99ae-5a0fd7319843.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=d0ce9ea64d23cd3d9ea701d62d76a039&pid=707042&user=jhasuraj)
+

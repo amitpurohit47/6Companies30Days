@@ -17,23 +17,8 @@ AB
 
 ### Solution
 ```cpp
-class Solution{
-    public:
-    string colName (long long int n)
-    {
-        string ans;
 
-        while(n) {
-            ans += (char) ('A' + (n-1) % 26);
-            n = (n-1)/26;
-        }
-        
-        reverse(ans.begin(), ans.end());
-        
-        return ans;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148641450-73de6bfd-1508-4daf-83c6-f2c042f0a35a.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=b6b1fdf3d26d74a8be26883c95f7443a&pid=702959&user=jhasuraj)
+

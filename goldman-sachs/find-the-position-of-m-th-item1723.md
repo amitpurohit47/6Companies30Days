@@ -15,16 +15,7 @@ M items are to be delivered in a circle of size N. Find the position where the M
 
 ### Solution
 ```cpp
-class Solution {
-  public:
-    int findPosition(int N , int M , int K) {
-        if(N == 1) return 1;
 
-        int pos = 1 + (M + K - 2) % N;
-        return pos;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148000925-4b92ec5d-eae4-4e4f-a0c5-a90b532c2103.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=5caae207066adc0ddc8d191f13e6b1ce&pid=704216&user=jhasuraj)

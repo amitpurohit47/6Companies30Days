@@ -24,40 +24,7 @@ Output: 3
 
 ### Solution
 ```cpp
-class Solution {
-public:
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int N = isConnected.size();
 
-        vector<bool> visited(N, false);
-
-        queue<int> line;
-
-        int province = 0;
-
-        for(int r = 0; r < N; ++r) {
-            if(visited[r]) continue;
-
-            line.push(r);
-            visited[r] = true;
-            
-            while(!line.empty()) {
-                int current = line.front(); line.pop();
-                for(int c = 0; c < N; ++c) {
-                    if(isConnected[c][current] && !visited[c]) {
-                        line.push(c);
-                        visited[c] = true;
-                    }
-                }
-            }
-
-            ++province;
-        }
-        
-        return province;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151139117-099ddfe9-124c-4ab8-9aeb-7ca40906eefe.png)](https://leetcode.com/submissions/detail/628166090/)

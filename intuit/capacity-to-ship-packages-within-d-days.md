@@ -22,39 +22,7 @@ Output: 6
 
 ### Solution
 ```cpp
-class Solution {
-public:
-    int minLargestSum(vector<int>& array, int m, int start, int end, vector<int>& presum, vector<vector<int>>& cache) {
-        if(m == 1) {
-            return presum[end] - presum[start];
-        }
-        if(cache[start][m] != -1) return cache[start][m];
 
-        int ans = INT_MAX;
-
-        for(int i = start + 1; i <= end - m + 1; ++i) {
-            int largest_sum = max(
-                presum[i] - presum[start],
-                minLargestSum(array, m - 1, i, end, presum, cache)
-            );
-            ans = min(ans, largest_sum);
-        }
-
-        return cache[start][m] = ans;
-    }
-
-    int shipWithinDays(vector<int>& weights, int days) {
-        vector<int> presum(weights.size() + 1, 0);
-        vector<vector<int>> cache(weights.size(), vector<int>(days+1, -1));
-
-        for(int i = 0; i < weights.size(); ++i) {
-            presum[i + 1] = presum[i] + weights[i];
-        }
-        
-        return minLargestSum(weights, days, 0, weights.size(), presum, cache);
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151111943-015d5eea-9ba3-4d9c-8af3-2736eee9110b.png)](https://leetcode.com/submissions/detail/627778447/)

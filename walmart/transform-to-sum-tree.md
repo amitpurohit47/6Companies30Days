@@ -24,26 +24,7 @@ Given a Binary Tree of size N , where each node can have positive or negative va
 
 ### Solution
 ```cpp
-class Solution {
-  public:
-    int createSumTree(Node *node) {
-        
-        if(node == NULL) return 0;
-        
-        int left = createSumTree(node->left);
-        int right = createSumTree(node->right);
-        int temp = node->data;
-        node->data = left + right;
-        
-        return (left + right + temp);
-    }
-    
-    void toSumTree(Node *node)
-    {
-       createSumTree(node);
-    }
-};
+
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151652298-1eb2b8cf-e159-4be4-8913-6a692b248ce4.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=203fa42114545239ef824c0dd52130df&pid=700185&user=jhasuraj)

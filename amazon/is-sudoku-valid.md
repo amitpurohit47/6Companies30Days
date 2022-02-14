@@ -27,34 +27,8 @@ Refer to this : https://en.wikipedia.org/wiki/Sudoku
 
 ### Solution
 ```cpp
-class Solution{
-public:
-    int isValid(vector<vector<int>> mat){
 
-        // row, col, block cache
-        vector<bitset<10>> rowc(9), colc(9), bloc(9);
-
-        for(int r = 0; r < 9; ++r) {
-            for(int c = 0; c < 9; ++c) {
-                int num = mat[r][c];
-                
-                if(
-                    num && (
-                    rowc[r].test(num) ||
-                    colc[c].test(num) ||
-                    bloc[3*(r/3) + c/3].test(num))
-                ) return 0;
-                
-                rowc[r].set(num);
-                colc[c].set(num);
-                bloc[3*(r/3) + c/3].set(num);
-            }
-            
-        }
-        return 1;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148640951-447e634c-e890-4c85-9f7a-dc1ef99c5893.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=066bfa3e462dabebf51f08ab533006ec&pid=705293&user=jhasuraj)
+

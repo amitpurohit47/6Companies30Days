@@ -34,32 +34,8 @@ The task is to complete the function linkdelete() which should modify the linked
 
 ### Solution
 ```cpp
-class Solution
-{
-    public:
-    void linkdelete(struct Node  *head, int M, int N)
-    {
-        Node* node = head;
 
-        while(node != NULL) {
-            for(int i = 1; i < M && node != NULL; ++i) {
-                node = node->next;
-            }
-            
-            if(node == NULL) return;
-
-            Node* ref = node;
-
-            for(int i = 0; i <= N && node != NULL; ++i) {
-                node = node->next;
-            }
-
-            ref->next = node;
-
-        }
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148642312-8560bab6-27b6-407d-bc86-e86b5474a913.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=e43f1cb34ef47f0369f9454d37b9b699&pid=700021&user=jhasuraj)
+

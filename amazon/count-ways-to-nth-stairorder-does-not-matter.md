@@ -26,15 +26,8 @@ n = 2i + j;
 
 ### Solution
 ```cpp
-class Solution
-{
-    public:
-    long long countWays(int m)
-    {
-        return m/2 + 1ll;
-    }
-};
+
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148505727-7510508d-f574-40d3-83cd-96c58655d936.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=8304d762c9435b549cbc78bd4048142e&pid=701419&user=jhasuraj)
+

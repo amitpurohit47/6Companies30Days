@@ -20,25 +20,7 @@ In the stock market, a person buys a stock and sells it on some future date. Giv
 
 ### Solution
 ```cpp
-class Solution {
-  public:
-    int maxProfit(int K, int N, int A[]) {
 
-        // DP of Transaction Count vs Price
-        vector<vector<int>> TP(K+1, vector<int>(N+1, 0));
-
-        for(int t = 1; t <= K; ++t) {
-            for(int p = 1; p <= N; ++p) {
-                TP[t][p] = TP[t][p - 1];
-                for(int i = 0; i < p; ++i) {
-                    TP[t][p] = max(TP[t][p], TP[t-1][i] + A[p-1] - A[i]);
-                }
-            }
-        }
-        return TP.back().back();
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148659846-1bfc829b-a670-4dcb-bc6c-0b62e57545a5.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=dc89596439fffc05b04dac11f8183b05&pid=704532&user=jhasuraj)

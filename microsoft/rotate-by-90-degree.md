@@ -20,21 +20,7 @@ Given a square matrix[][] of size N x N. The task is to rotate it by 90 degrees 
 
 ### Solution
 ```cpp
-void rotate(int n,int a[][n])
-{
-    int limit = (n+1)/2;
 
-    for(int r = 0; r < limit; ++r) {
-        for(int c = r; c < n-r-1; ++c) {
-            int temp = a[r][c];
-            a[r][c] = a[c][n - r - 1];
-            a[c][n - r - 1] = a[n - r - 1][n - c - 1];
-            a[n - r - 1][n - c - 1] = a[n - c - 1][r];
-            a[n - c - 1][r] = temp;
-        }
-    }
-}
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/149125771-8a440730-bffb-4f51-9428-3884f5cdb00c.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=0e64a2357d5660e471a3a6dbd4a922cc&pid=701989&user=jhasuraj)

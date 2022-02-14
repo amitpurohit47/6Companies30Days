@@ -25,36 +25,7 @@ You are an FBI agent. You have to determine the total number of ways that messag
 
 ### Solution
 ```cpp
-class Solution {
-	public:
-	    map<int, int> cache;
-	    int mod = 1e9+7;
-		int CountWays(string str, int n = 0){
 
-		    if(str[0] == '0') return 0;
-
-		    int end = str.size() - n - 1;
-
-		    if(end < 1) return 1;
-
-		    if(cache.count(end)) return cache[end];
-
-		    int count = 0;
-		    if(str[end] != '0') {
-		        count = CountWays(str, n + 1);
-		    }
-
-		    if(str[end-1] == '1' || (str[end-1] == '2' && str[end] <= '6')) {
-		        count += CountWays(str, n + 2);
-		    }
-
-		    cache[end] = count % mod;
-
-		    return count % mod;
-		}
-
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/148186941-d0f5fe4c-4c7c-45f2-964c-d41f76cd6acb.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=6849c8e3a93717352c31f0134df5a6dd&pid=705327&user=jhasuraj)

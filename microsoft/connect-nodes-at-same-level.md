@@ -24,33 +24,7 @@ Initially, all the nextRight pointers point to garbage values. Your function sho
 
 ### Solution
 ```cpp
-class Solution {
-    public:
-    void connect(Node *root)
-    {
-        queue<Node*> q;
-        q.push(root);
-        q.push(NULL);
-        
-        while(!q.empty()) {
-            Node* node = q.front();
-            q.pop();
-    
-            if(node == NULL) {
-                if(!q.empty()) {
-                    q.push(NULL);
-                }
-                continue;
-            }
-            
-            node->nextRight = q.front();
 
-            if(node->left) q.push(node->left);
-            if(node->right) q.push(node->right);
-        }
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/149304947-65e87f00-8fcf-4d81-91a9-0fd4e00b939d.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=5dc3c130ce28f3d5b9fd088b625d5281&pid=700184&user=jhasuraj)

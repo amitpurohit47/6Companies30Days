@@ -18,23 +18,7 @@ Given a A X B matrix with your initial position at the top-left cell, find the n
 
 ### Solution
 ```cpp
-class Solution
-{
-    public:
-    int NumberOfPath(int a, int b)
-    {
-        vector<vector<int>> M(a, vector<int>(b, 1));
-        
-        for(int r = 1; r < a; ++r) {
-            for(int c = 1; c < b; ++c) {
-                M[r][c] = M[r-1][c] + M[r][c-1];
-            }
-        }
 
-        return M.back().back();
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151651824-26986bcc-cd3c-4654-a870-b210a006d337.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=7bf1795b21916bac65f47e3dc374aa5a&pid=701714&user=jhasuraj)

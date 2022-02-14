@@ -22,22 +22,7 @@ Output: "2"
 
 ### Solution
 ```cpp
-class Solution {
-public:
-    string kthLargestNumber(vector<string>& nums, int k) {
-        sort(nums.begin(), nums.end(), [&](string a, string b) {
-            if(a.size() != b.size()) {
-                return a.size() < b.size();
-            }
-            else {
-                return a < b;
-            }
-        });
-        for(auto n: nums) cout << n << " ";
-        return nums.end()[-k];
-    }
-};
+
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151655578-04f9517e-6c25-49f6-90a3-dbeddfa42f18.png)](https://leetcode.com/submissions/detail/630107466/)

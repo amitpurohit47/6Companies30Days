@@ -24,37 +24,7 @@ Output: 30
 
 ### Solution
 ```cpp
-class Solution {
-public:
-    int minEatingSpeed(vector<int>& piles, int H) {
-        int low = 1;
-        int high = *max_element(piles.begin(), piles.end());
-        int ans = high;
 
-        while(low < high) {
-            int mid = (low + high) >> 1;
-
-            int h = 0;
-            for(int bananas: piles) {
-                h += ceil((double) bananas/mid);
-            }
- 
-            if(h == H) {
-                ans = min(ans, mid);
-            }
-            
-            if(h > H) {
-                low = mid + 1;
-            }
-            else {
-                high = mid;
-            }
-        }
-
-        return ans;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151487000-1706a427-fe23-47d9-8a88-45e133ef3ae0.png)](https://leetcode.com/submissions/detail/629360419/)

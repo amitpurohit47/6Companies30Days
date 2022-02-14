@@ -34,33 +34,7 @@ and one node 7.
 
 ### Solution
 ```cpp
-pair<int, int> subtreeSum(Node* root, int x) {
 
-    if(root == NULL) return {0, 0};
-
-    int count = 0;
-
-    pair<int, int> left = subtreeSum(root->left, x);
-    pair<int, int> right = subtreeSum(root->right, x);
-
-    count += left.first;
-    count += right.first;
-
-    int sum = left.second + right.second + root->data;
-
-    if(sum == x) {
-        ++count;
-    }
-
-    return {count, sum};
-}
-
-int countSubtreesWithSumX(Node* root, int x)
-{
-	pair<int, int> result = subtreeSum(root, x);
-	return result.first;
-}
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/149342326-7775ba04-9b9b-4b3a-a9ad-cb0ea09143f9.png)](https://practice.geeksforgeeks.org/viewSol.php?subId=51172c08317c0f21c30621a15a116b2d&pid=700689&user=jhasuraj)

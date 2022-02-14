@@ -22,48 +22,7 @@ Output: [0,2,1,3]
 
 ### Solution
 ```cpp
-class Solution {
-public:
-    bool topologicalSort(int course, vector<vector<int>> &courses, vector<int> &state, vector<int> &ans) {
-        if(state[course] == 2) return true;
-        if(state[course] == 1) return false;
 
-        state[course] = 1; // visited
-
-        for(auto prerequisites: courses[course]) {
-            if(!topologicalSort(prerequisites, courses, state, ans)) {
-                return false;
-            }
-        }
-
-        ans.push_back(course);
-
-        state[course] = 2; // completed
-
-        return true;
-    }
-
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> courses(numCourses);
-        vector<int> state(numCourses, 0);
-
-        for(auto course: prerequisites) {
-            courses[course[0]].push_back(course[1]);
-        }
-
-        vector<int> ans;
-
-        for(int i = 0; i < numCourses; ++i) {
-            if(state[i]) continue;
-            if(!topologicalSort(i, courses, state, ans)) {
-                return vector<int>(0);
-            }
-        }
-
-        return ans;
-    }
-};
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151199708-dd67adfc-cb15-499b-8edd-39aeec7bda7c.png)](https://leetcode.com/submissions/detail/628341320/)

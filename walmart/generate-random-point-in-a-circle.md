@@ -21,24 +21,7 @@ Output
 
 ### Solution
 ```cpp
-class Solution {
-public:
-    double radius, x_center, y_center;
-    Solution(double _radius, double _x_center, double _y_center) {
-        radius = _radius;
-        x_center = _x_center;
-        y_center = _y_center;
-    }
-    
-    vector<double> randPoint() {
-        double theta = ((double) rand()/RAND_MAX)*2*M_PI;
-        double r = sqrt((double) rand()/RAND_MAX) * radius;
-        double x = r * cos(theta) + x_center;
-        double y = r * sin(theta) + y_center;
-        return {x, y};
-    }
-};
+
 ```
 
 ### Accepted
-[![image](https://user-images.githubusercontent.com/44930179/151700196-1851394e-bcba-4207-8224-eb8f61d3e5c0.png)](https://leetcode.com/submissions/detail/630910231/)
