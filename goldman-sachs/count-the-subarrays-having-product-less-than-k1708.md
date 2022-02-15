@@ -5,16 +5,20 @@
 Given an array of positive numbers, the task is to find the number of possible contiguous subarrays having product less than a given number k.
 
 ### Sample Input
+
 ```
 4 10
 1 2 3 4
 ```
+
 ### Sample Output
+
 ```
 7
 ```
 
 ### Naive Solution
+
 ```cpp
 #define ll long long
 
@@ -36,6 +40,7 @@ class Solution{
 ```
 
 ### Solution (Sliding Window)
+
 ```cpp
 #define ll long long
 
@@ -57,5 +62,3 @@ class Solution{
     }
 };
 ```
-
-

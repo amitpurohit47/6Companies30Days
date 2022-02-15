@@ -5,7 +5,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 ## Problem Sets
 
 <details>
-<summary style="font-size: 1.2em">Goldman Sachs (15/15)</summary>
+<summary style="font-size: 1.2em">Goldman Sachs (4/15)</summary>
 
 | Sr  | [Problems](./goldman-sachs/README.md)                                                                                   | TryIt                                                                                                                                  | Status |
 | --- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -28,7 +28,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Amazon (15/15)</summary>
+<summary style="font-size: 1.2em">Amazon (0/15)</summary>
 
 | Sr  | [Problems](./amazon/README.md)                                                                              | TryIt                                                                                                                                | Status |
 | --- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------ |
@@ -51,7 +51,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Microsoft (15/15)</summary>
+<summary style="font-size: 1.2em">Microsoft (0/15)</summary>
 
 | Sr  | [Problems](./microsoft/README.md)                                                                     | TryIt                                                                                                                                   | Status |
 | --- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -74,7 +74,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Adobe (15/15)</summary>
+<summary style="font-size: 1.2em">Adobe (0/15)</summary>
 
 | Sr  | [Problems](./adobe/README.md)                                                                            | TryIt                                                                                                                                                               | Status |
 | --- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -97,7 +97,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Intuit (15/15)</summary>
+<summary style="font-size: 1.2em">Intuit (0/15)</summary>
 
 | Sr  | Problems                                                                                       | TryIt                                                                                                                   | Status |
 | --- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -120,7 +120,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Walmart (15/15)</summary>
+<summary style="font-size: 1.2em">Walmart (0/15)</summary>
 
 | Sr  | Problems                                                                                                                              | TryIt                                                                                                                         | Status |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
