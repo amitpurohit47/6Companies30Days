@@ -42,4 +42,3 @@ string encode(string src)
 
 ```
 
-### Accepted
