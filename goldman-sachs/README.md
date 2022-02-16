@@ -11,5 +11,4 @@
 - [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 - [Find the position of M-th item](https://practice.geeksforgeeks.org/problems/find-the-position-of-m-th-item1723/1)
 - [Total Decoding Messages](https://practice.geeksforgeeks.org/problems/total-decoding-messages1235/1)
-[![Problem Link](https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://practice.geeksforgeeks.org/problems/number-following-a-pattern3126/1#)
 - [Number following a pattern](https://practice.geeksforgeeks.org/problems/number-following-a-pattern3126/1)
