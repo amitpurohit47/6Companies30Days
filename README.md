@@ -5,7 +5,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 ## Problem Sets
 
 <details>
-<summary style="font-size: 1.2em">Goldman Sachs (6/15)</summary>
+<summary style="font-size: 1.2em">Goldman Sachs (7/15)</summary>
 
 | Sr  | [Problems](./goldman-sachs/README.md)                                                                                   | TryIt                                                                                                                                  | Status |
 | --- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -15,7 +15,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 4   | [Run Length Encoding](./goldman-sachs/run-length-encoding.md)                                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/run-length-encoding/1/)                                | ✅     |
 | 5   | [Ugly Number](./goldman-sachs/ugly-numbers2254.md)                                                                      | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/ugly-numbers2254/1/)                                   | ✅     |
 | 6   | [Greatest Common Divisor of Strings](./goldman-sachs/greatest-common-divisor-of-strings.md)                             | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/greatest-common-divisor-of-strings/)                                  | ✅     |
-| 7   | [Find the position of M-th item](./goldman-sachs/find-the-position-of-m-th-item1723.md)                                 | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/find-the-position-of-m-th-item1723/1#)                 | ❌     |
+| 7   | [Find the position of M-th item](./goldman-sachs/find-the-position-of-m-th-item1723.md)                                 | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/find-the-position-of-m-th-item1723/1#)                 | ✅     |
 | 8   | [Total Decoding Messages](./goldman-sachs/total-decoding-messages1235.md)                                               | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/total-decoding-messages1235/1/)                        | ❌     |
 | 9   | [Number following a pattern](./goldman-sachs/number-following-a-pattern3126.md)                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/number-following-a-pattern3126/1#)                     | ❌     |
 | 10  | [Max 10 numbers in a list having 10M entries](./goldman-sachs/k-largest-elements3736.md)                                | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1)                              | ❌     |
