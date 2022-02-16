@@ -10,3 +10,4 @@
 - [Ugly Number](https://practice.geeksforgeeks.org/problems/ugly-numbers2254/1/)
 - [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 - [Find the position of M-th item](https://practice.geeksforgeeks.org/problems/find-the-position-of-m-th-item1723/1)
+- [Total Decoding Messages](https://practice.geeksforgeeks.org/problems/total-decoding-messages1235/1)
