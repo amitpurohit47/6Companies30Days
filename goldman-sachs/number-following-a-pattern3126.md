@@ -9,17 +9,48 @@ Devise an algorithm to print the minimum number following that pattern.
 Digits from 1-9 and digits can't repeat.
 
 ### Sample Input
+
 ```
 D
 ```
+
 ### Sample Output
+
 ```
 21
 ```
 
 ### Solution
-```cpp
 
+```cpp
+class Solution{
+public:
+    string printMinNumberForPattern(string s){
+        // code here
+        int cnt=1,i,n=s.length(),k=0;
+        string s1="";
+        stack<int> st;
+        for(i=0;i<n;i++){
+            if(s[i]=='D'){
+                st.push(cnt);
+                cnt++;
+            }else{
+                st.push(cnt);
+                while(!st.empty()){
+                    s1+=(st.top()+48);
+                    st.pop();
+                }
+                cnt++;
+            }
+        }
+        st.push(cnt);
+        while(!st.empty()){
+            s1+=(st.top()+48);
+            st.pop();
+        }
+        return s1;
+    }
+};
 ```
 
 ### Accepted
