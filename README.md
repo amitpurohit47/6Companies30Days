@@ -5,7 +5,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 ## Problem Sets
 
 <details>
-<summary style="font-size: 1.2em">Goldman Sachs (11/15)</summary>
+<summary style="font-size: 1.2em">Goldman Sachs (12/15)</summary>
 
 | Sr  | [Problems](./goldman-sachs/README.md)                                                                                   | TryIt                                                                                                                                  | Status |
 | --- | ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -20,7 +20,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 9   | [Number following a pattern](./goldman-sachs/number-following-a-pattern3126.md)                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/number-following-a-pattern3126/1#)                     | ✅     |
 | 10  | [Max 10 numbers in a list having 10M entries](./goldman-sachs/k-largest-elements3736.md)                                | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1)                              | ✅     |
 | 11  | [Find Missing And Repeating](./goldman-sachs/find-missing-and-repeating2512.md)                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1/#)                    | ✅     |
-| 12  | [Squares in N\*N Chessboard](./goldman-sachs/squares-in-nn-chessboard1801.md)                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1)                        | ❌     |
+| 12  | [Squares in N\*N Chessboard](./goldman-sachs/squares-in-nn-chessboard1801.md)                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1)                        | ✅     |
 | 13  | [Decode the string](./goldman-sachs/decode-the-string2444.md)                                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/decode-the-string2444/1)                               | ❌     |
 | 14  | [Minimum Size Subarray Sum](./goldman-sachs/minimum-size-subarray-sum.md)                                               | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/minimum-size-subarray-sum/)                                           | ❌     |
 | 15  | [Array Pair Sum Divisibility Problem](./goldman-sachs/array-pair-sum-divisibility-problem3257.md)                       | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1#)            | ❌     |
