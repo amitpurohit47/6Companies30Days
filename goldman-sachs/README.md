@@ -16,3 +16,4 @@
 - [Find Missing And Repeating](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1/)
 - [Squares in NxN Chessboard](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1)
 - [Decode the string](https://practice.geeksforgeeks.org/problems/decode-the-string2444/1)
+- [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
