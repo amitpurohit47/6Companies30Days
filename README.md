@@ -23,7 +23,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 12  | [Squares in N\*N Chessboard](./goldman-sachs/squares-in-nn-chessboard1801.md)                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/squares-in-nn-chessboard1801/1)                        | ✅     |
 | 13  | [Decode the string](./goldman-sachs/decode-the-string2444.md)                                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/decode-the-string2444/1)                               | ✅     |
 | 14  | [Minimum Size Subarray Sum](./goldman-sachs/minimum-size-subarray-sum.md)                                               | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/minimum-size-subarray-sum/)                                           | ✅     |
-| 15  | [Array Pair Sum Divisibility Problem](./goldman-sachs/array-pair-sum-divisibility-problem3257.md)                       | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1#)            | ❌     |
+| 15  | [Array Pair Sum Divisibility Problem](./goldman-sachs/array-pair-sum-divisibility-problem3257.md)                       | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1#)            | ✅     |
 
 </details>
 
