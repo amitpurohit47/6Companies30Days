@@ -6,28 +6,49 @@ There are N stairs, and a person standing at the bottom wants to reach the top. 
 
 **Note:** Order does not matter means for n=4 {1 2 1},{2 1 1},{1 1 2} are considered same.
 
-### Hint
-```
-n = 2i + j;
-
-4 = 2(0) + 4
-4 = 2(1) + 2
-4 = 2(2) + 0
-```
-
 ### Sample Input
+
 ```
 4
 ```
+
 ### Sample Output
+
 ```
 3
 ```
 
-### Solution
-```cpp
+### Math Solution
 
+```cpp
+#define ll long long
+
+class Solution
+{
+    public:
+    ll countWays(int m)
+    {
+        return m/2 + 1;
+    }
+};
 ```
 
-### Accepted
+### DP Solution
 
+```cpp
+#define ll long long
+#define mod 1000000007
+
+class Solution
+{
+    public:
+    ll countWays(int m)
+    {
+        ll dp[m+1];
+        dp[0] = 1;
+        dp[1] = 1;
+        for(int i=2;i<=m;i++) dp[i] = (dp[i-2] + 1)%mod;
+        return dp[m];
+    }
+};
+```
