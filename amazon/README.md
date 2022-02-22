@@ -6,3 +6,4 @@
 - [Maximum Profit](./maximum-profit.md)
 - [Longest Mountain in Array](./longest-mountain-in-array.md)
 - [IPL 2021 - Match Day 2](./ipl-2021-match-day-2.md)
+- [Brackets in Matrix Chain Multiplication](./brackets-in-matrix-chain-multiplication.md)
