@@ -5,18 +5,43 @@
 Given an array arr[] of size N and an integer K. Find the maximum for each and every contiguous subarray of size K.
 
 ### Sample Input
+
 ```
 9 3
 1 2 3 1 4 5 2 3 6
 ```
+
 ### Sample Output
+
 ```
-3 3 4 5 5 5 6 
+3 3 4 5 5 5 6
 ```
 
 ### Solution
+
 ```cpp
-
+class Solution
+{
+  public:
+    //Function to find maximum of each subarray of size k.
+    vector <int> max_of_subarrays(int *arr, int n, int k)
+    {
+        // your code here
+        vector<int> ans;
+        deque<int> q;
+        int i;
+        for(i=0;i<k;i++){
+            while(!q.empty() && arr[i]>=arr[q.back()]) q.pop_back();
+            q.push_back(i);
+        }
+        for(;i<n;i++){
+            ans.push_back(arr[q.front()]);
+            while(!q.empty() && q.front()+k<=i) q.pop_front();
+            while(!q.empty() && arr[i]>=arr[q.back()]) q.pop_back();
+            q.push_back(i);
+        }
+        ans.push_back(arr[q.front()]);
+        return ans;
+    }
+};
 ```
-
-### Accepted
