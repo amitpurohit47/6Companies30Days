@@ -28,7 +28,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Amazon (8/15)</summary>
+<summary style="font-size: 1.2em">Amazon (9/15)</summary>
 
 | Sr  | [Problems](./amazon/README.md)                                                                              | TryIt                                                                                                                                | Status |
 | --- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------ |
@@ -41,7 +41,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 7   | [First non-repeating character in a stream](./amazon/first-non-repeating-character-in-a-stream.md)          | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/first-non-repeating-character-in-a-stream1216/1)     | ✅     |
 | 8   | [Count ways to N'th Stair(Order does not matter)](./amazon/count-ways-to-nth-stairorder-does-not-matter.md) | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/count-ways-to-nth-stairorder-does-not-matter1322/1/) | ✅     |
 | 9   | [Is Sudoku Valid](./amazon/is-sudoku-valid.md)                                                              | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/is-sudoku-valid4820/1/)                              | ✅     |
-| 10  | [Nuts and Bolts Problem](./amazon/nuts-and-bolts-problem.md)                                                | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1)                        | ❌     |
+| 10  | [Nuts and Bolts Problem](./amazon/nuts-and-bolts-problem.md)                                                | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/nuts-and-bolts-problem0431/1)                        | ✅     |
 | 11  | [Serialize and Deserialize a Binary Tree](./amazon/serialize-and-deserialize-a-binary-tree.md)              | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/serialize-and-deserialize-a-binary-tree/1)           | ❌     |
 | 12  | [Column name from a given column number](./amazon/column-name-from-a-given-column-number.md)                | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/column-name-from-a-given-column-number4244/1/)       | ❌     |
 | 13  | [Rotting Oranges](./amazon/rotting-oranges.md)                                                              | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/rotting-oranges/)                                                   | ❌     |
