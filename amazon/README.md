@@ -12,3 +12,4 @@
 - [Count ways to N'th Stair(Order does not matter)](./count-ways-to-nth-stairorder-does-not-matter.md)
 - [Is Sudoku Valid](./is-sudoku-valid.md)
 - [Nuts and Bolts Problem](./nuts-and-bolts-problem.md)
+- [Serialize and Deserialize a Binary Tree](./serialize-and-deserialize-a-binary-tree.md)
