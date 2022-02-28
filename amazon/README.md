@@ -15,3 +15,4 @@
 - [Serialize and Deserialize a Binary Tree](./serialize-and-deserialize-a-binary-tree.md)
 - [Column name from a given column number](./column-name-from-a-given-column-number.md)
 - [Rotting Oranges](./rotting-oranges.md)
+- [Burning Tree](./burning-tree.md)
