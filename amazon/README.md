@@ -16,3 +16,4 @@
 - [Column name from a given column number](./column-name-from-a-given-column-number.md)
 - [Rotting Oranges](./rotting-oranges.md)
 - [Burning Tree](./burning-tree.md)
+- [Delete N nodes after M nodes of a linked list](./delete-n-nodes-after-m-nodes-of-a-linked-list.md)

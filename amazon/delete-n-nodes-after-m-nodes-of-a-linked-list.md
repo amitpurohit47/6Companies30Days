@@ -17,25 +17,43 @@ Function should not print any output to stdin/console.
 The task is to complete the function linkdelete() which should modify the linked list as required.
 
 ### Sample Input
+
 ```
 2
 8
 2 1
-9 1 3 5 9 4 10 1 
+9 1 3 5 9 4 10 1
 6
 1 2
 8 4 8 10 1 3
 ```
+
 ### Sample Output
+
 ```
-9 1 5 9 10 1 
-8 10 
+9 1 5 9 10 1
+8 10
 ```
 
 ### Solution
+
 ```cpp
-
+class Solution
+{
+    public:
+    void linkdelete(struct Node  *head, int m, int n)
+    {
+        //Add code here
+        Node* p = head;
+        while(p!=NULL){
+            for(int i=0;i<m-1 && p!=NULL && p->next!=NULL;i++) p=p->next;
+            for(int i=0;i<n && p!=NULL && p->next!=NULL;i++){
+                Node* temp = p->next;
+                p->next = temp->next;
+                delete temp;
+            }
+            p=p->next;
+        }
+    }
+};
 ```
-
-### Accepted
-
