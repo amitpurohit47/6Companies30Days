@@ -51,11 +51,11 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Microsoft (0/15)</summary>
+<summary style="font-size: 1.2em">Microsoft (1/15)</summary>
 
 | Sr  | [Problems](./microsoft/README.md)                                                                     | TryIt                                                                                                                                   | Status |
 | --- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 1   | [Minimum sum partition](./microsoft/minimum-sum-partition.md)                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/)                           | ❌     |
+| 1   | [Minimum sum partition](./microsoft/minimum-sum-partition.md)                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/)                           | ✅     |
 | 2   | [Prerequisite Tasks](./microsoft/prerequisite-tasks.md)                                               | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/prerequisite-tasks/1/)                                  | ❌     |
 | 3   | [Rotate by 90 degree](./microsoft/rotate-by-90-degree.md)                                             | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/rotate-by-90-degree0356/1/)                             | ❌     |
 | 4   | [Spirally traversing a matrix](./microsoft/spirally-traversing-a-matrix.md)                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1/)             | ❌     |
