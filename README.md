@@ -51,7 +51,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Microsoft (10/15) </summary>
+<summary style="font-size: 1.2em">Microsoft (11/15) </summary>
 
 | Sr  | [Problems](./microsoft/README.md)                                                                     | TryIt                                                                                                                                   | Status |
 | --- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -65,7 +65,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 8   | [Connect Nodes at Same Level](./microsoft/connect-nodes-at-same-level.md)                             | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1/)                         | ✅     |
 | 9   | [Count Number of SubTrees having given Sum](./microsoft/count-number-of-subtrees-having-given-sum.md) | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/count-number-of-subtrees-having-given-sum/1/)           | ✅     |
 | 10  | [Stickler Thief](./microsoft/stickler-theif.md)                                                       | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/stickler-theif-1587115621/1/)                           | ✅     |
-| 11  | [Generate Binary Numbers](./microsoft/generate-binary-numbers.md)                                     | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1/)                  | ❌     |
+| 11  | [Generate Binary Numbers](./microsoft/generate-binary-numbers.md)                                     | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/generate-binary-numbers-1587115620/1/)                  | ✅     |
 | 12  | [Find All Four Sum Numbers](./microsoft/find-all-four-sum-numbers.md)                                 | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1)                        | ❌     |
 | 13  | [Bridge edge in a graph](./microsoft/bridge-edge-in-graph.md)                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1)                                 | ❌     |
 | 14  | [Minimum steps to destination](./microsoft/minimum-steps-to-destination.md)                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/minimum-number-of-steps-to-reach-a-given-number5234/1/) | ❌     |
