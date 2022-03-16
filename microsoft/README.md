@@ -8,3 +8,4 @@
 - [Spirally Traversing a Matrix](./spirally-traversing-a-matrix.md)
 - [Stock Span Problem](./stock-span-problem.md)
 - [Possible Words From Phone Digits](./possible-words-from-phone-digits.md)
+- [Unit Area of largest region of 1's](./length-of-largest-region-of-1s.md)
