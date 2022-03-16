@@ -1,5 +1,5 @@
 # 6Companies30Days Challenge
-## Microsoft
+## Microsoft 
 
 ### Solved Problems
 - [Minimum sum partition](./minimum-sum-partition.md)

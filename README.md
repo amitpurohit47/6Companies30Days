@@ -51,7 +51,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Microsoft (10/15)</summary>
+<summary style="font-size: 1.2em">Microsoft (10/15) </summary>
 
 | Sr  | [Problems](./microsoft/README.md)                                                                     | TryIt                                                                                                                                   | Status |
 | --- | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------ |
