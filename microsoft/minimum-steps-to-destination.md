@@ -15,12 +15,41 @@ Given an infinite number line. You start at 0 and can go either to the left or t
 
 ### Naive Solution
 ```cpp
+class Solution{
+public:
 
+    int steps(int v,int i,int D){
+        if(abs(v)>D) return INT_MAX;
+        if(v==D) return i;
+        int pos = steps(v+i+1,i+1,D);
+        int neg = steps(v-i-1,i+1,D);
+        return min(pos,neg);
+    }
+
+    int minSteps(int D){
+        // code here
+        if(D==0) return 0;
+        
+        return steps(0,0,D);
+    }
+};
 ```
 
 ### Solution
 ```cpp
 
+class Solution{
+public:
+
+    int minSteps(int D){
+        // code here
+        int step=0,sum=0;
+        while(sum<D || (sum-D)%2!=0){
+            step++;
+            sum+=step;
+        }
+        return step;
+    }
+};
 ```
 
-### Accepted
