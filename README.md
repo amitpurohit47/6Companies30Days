@@ -74,11 +74,11 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Adobe (0/15)</summary>
+<summary style="font-size: 1.2em">Adobe (1/15)</summary>
 
 | Sr  | [Problems](./adobe/README.md)                                                                            | TryIt                                                                                                                                                               | Status |
 | --- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 1   | [Subarray with given sum](./adobe/subarray-with-given-sum.md)                                            | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)                                               | ❌     |
+| 1   | [Subarray with given sum](./adobe/subarray-with-given-sum.md)                                            | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)                                               | ✅     |
 | 2   | [Longest Arithmetic Progression](./adobe/longest-arithmetic-progression.md)                              | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/longest-arithmetic-progression1019/1/)                                              | ❌     |
 | 3   | [No. of distict Words with k max contiguous vowels](./adobe/kmax-cont-vowels.md)                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/7b9d245852bd8caf8a27d6d3961429f0a2b245f1/1/)                                        | ❌     |
 | 4   | [Partition Equal Subset Sum](./adobe/subset-sum-problem.md)                                              | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/subset-sum-problem2014/1)                                                           | ❌     |
