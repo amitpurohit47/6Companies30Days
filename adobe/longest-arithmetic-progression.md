@@ -34,7 +34,7 @@ public:
     }
 };
 ```
-### Knapsack (TLE)
+### Naive (TLE)
 ```cpp
 class Solution{   
 public:
