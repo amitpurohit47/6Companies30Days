@@ -8,4 +8,5 @@
 - [Partition Equal Subset Sum](./subset-sum-problem.md)
 - [Express as sum of power of natural numbers](./sum-of-power-of-natural-numbers.md)
 - [Generate Parentheses](./generate-parentheses.md)
+- [Pots of Gold Game](./pots-of-gold-game.md)
 - [Implement Atoi](./implement-atoi.md)
