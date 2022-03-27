@@ -74,7 +74,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Adobe (7/15)</summary>
+<summary style="font-size: 1.2em">Adobe (8/15)</summary>
 
 | Sr  | [Problems](./adobe/README.md)                                                                            | TryIt                                                                                                                                                               | Status |
 | --- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
