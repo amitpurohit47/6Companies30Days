@@ -11,3 +11,4 @@
 - [Pots of Gold Game](./pots-of-gold-game.md)
 - [Implement Atoi](./implement-atoi.md)
 - [Next higher palindromic number using the same set of digits](./next-higher-palindromic-number-same-digit.md)
+- [Winner of an election](./winner-of-an-election.md)

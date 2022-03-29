@@ -16,8 +16,33 @@ john 4
 
 ### Solution
 ```cpp
-
+class Solution{
+  public:
+  
+    //Function to return the name of candidate that received maximum votes.
+    vector<string> winner(string arr[],int n)
+    {
+        // Your code here
+        // Return the string containing the name and an integer
+        // representing the number of votes the winning candidate got
+        map<string,int> mp;
+        for(int i=0;i<n;i++){
+            mp[arr[i]]++;
+        }
+        int mx=INT_MIN;
+        for(auto g:mp){
+            mx=max(mx,g.second);
+        }
+        set<string> st;
+        for(auto g:mp){
+            if(g.second == mx) st.insert(g.first);
+        }
+        vector<string> ans(2);
+        ans[0] = *(st.begin());
+        ans[1] = to_string(mx);
+        return ans;
+    }
+};
 ```
 
-### Accepted
 
