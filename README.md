@@ -74,7 +74,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Adobe (10/15)</summary>
+<summary style="font-size: 1.2em">Adobe (11/15)</summary>
 
 | Sr  | [Problems](./adobe/README.md)                                                                            | TryIt                                                                                                                                                               | Status |
 | --- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -88,7 +88,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 8   | [Implement Atoi](./adobe/implement-atoi.md)                                                              | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/implement-atoi/1/)                                                                  | ✅     |
 | 9   | [Next higher palindromic number using same digits](./adobe/next-higher-palindromic-number-same-digit.md) | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/next-higher-palindromic-number-using-the-same-set-of-digits5859/1/)                 | ✅     |
 | 10  | [Winner of an election](./adobe/winner-of-an-election.md)                                                | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/winner-of-an-election-where-votes-are-represented-as-candidate-names-1587115621/1/) | ✅     |
-| 11  | [Amend The Sentence](./adobe/amend-the-sentence.md)                                                      | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/amend-the-sentence3235/1)                                                           | ❌     |
+| 11  | [Amend The Sentence](./adobe/amend-the-sentence.md)                                                      | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/amend-the-sentence3235/1)                                                           | ✅     |
 | 12  | [Leaders in an array](./adobe/leaders-in-an-array.md)                                                    | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1/)                                                  | ❌     |
 | 13  | [Minimum operations to convert array A to B](./adobe/minimum-insertions-to-make-two-arrays-equal.md)     | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/minimum-insertions-to-make-two-arrays-equal/1/)                                     | ❌     |
 | 14  | [Smallest range in K lists](./adobe/smallest-range-covering-elements-from-k-lists.md)                    | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1/)                            | ❌     |

@@ -21,8 +21,27 @@ bruce wayne is batman
 
 ### Solution
 ```cpp
-
+class Solution{
+    public:
+    string amendSentence (string s)
+    {
+        // your code here
+        int i;
+        string ans="";
+        for(i=0;i<s.length();i++){
+            if(s[i]>='A' && s[i]<='Z'){
+                ans+=' ';
+                ans+=(s[i]+32);
+            }else{
+                ans+=s[i];
+            }
+        }
+        if(ans[0]==' '){
+            ans.erase(0,1);
+        }
+        return ans;
+    }
+};
 ```
 
-### Accepted
 
