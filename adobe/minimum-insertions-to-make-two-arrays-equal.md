@@ -4,7 +4,7 @@
 
 Given two Arrays **A[]** and **B[]** of length **N** and **M** respectively. Find the minimum number of **insertions** and **deletions** on the array A[], required to make both the arrays identical.
 
-**Note:** Array B[] is sorted and all its elements are distinct, operations can be performed at any index not necessarily at end.
+**Note:** Array B[] is sorted and all its elements are distinct, operations can be performed at any index not necessarily at end. 
 
 ### Sample Input
 ```
