@@ -13,3 +13,4 @@
 - [Next higher palindromic number using the same set of digits](./next-higher-palindromic-number-same-digit.md)
 - [Winner of an election](./winner-of-an-election.md)
 - [Amend The Sentence](./amend-the-sentence.md)
+- [Leaders in an array](./leaders-in-an-array.md)

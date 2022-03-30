@@ -16,7 +16,23 @@ Given an array A of positive integers. Your task is to find the leaders in the a
 
 ### Solution
 ```cpp
-
+class Solution{
+    //Function to find the leaders in the array.
+    public:
+    vector<int> leaders(int a[], int n){
+        // Code here
+        int lead=a[n-1],i;
+        vector<int> ans;
+        ans.push_back(lead);
+        for(i=n-2;i>=0;i--){
+            if(a[i]>=lead){
+                lead = a[i];
+                ans.push_back(lead);
+            }
+        }
+        reverse(ans.begin(),ans.end());
+        return ans;
+    }
+};
 ```
 
-### Accepted
