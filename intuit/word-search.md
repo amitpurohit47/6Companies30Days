@@ -20,7 +20,37 @@ geeks
 
 ### Solution
 ```cpp
+class Solution {
+public:
 
+    bool dfs(vector<vector<char>>& grid, string word,int i,int j,int k){
+        if(k==word.length()) return true;
+        if(i<0 or
+        j<0 or 
+        i>=grid.size() or 
+        j>=grid[0].size() or 
+        grid[i][j]!=word[k]) return false;
+        char ch = grid[i][j];
+        grid[i][j] = '*';
+        bool ans = dfs(grid,word,i-1,j,k+1);
+        ans |= dfs(grid,word,i+1,j,k+1);
+        ans |= dfs(grid,word,i,j-1,k+1);
+        ans |= dfs(grid,word,i,j+1,k+1);
+        grid[i][j] = ch;
+        return ans;
+        
+    }
+
+    bool isWordExist(vector<vector<char>>& grid, string word) {
+        // Code here
+        int n=grid.size(),m=grid[0].size();
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(grid[i][j] == word[0] && dfs(grid,word,i,j,0))  return true;
+            }
+        }
+        return false;
+    }
+};
 ```
 
-### Accepted

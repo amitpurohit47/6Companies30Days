@@ -3,4 +3,4 @@
 
 ### Solved Problems
 - [Minimum sum partition](./minimum-sum-partition.md)
-- 
+- [Word Search](./word-search.md)
