@@ -4,3 +4,4 @@
 ### Solved Problems
 - [Minimum sum partition](./minimum-sum-partition.md)
 - [Word Search](./word-search.md)
+- [Find the missing no in string](./missing-no-in-string.md)
