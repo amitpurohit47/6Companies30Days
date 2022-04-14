@@ -6,3 +6,4 @@
 - [Word Search](./word-search.md)
 - [Find the missing no in string](./missing-no-in-string.md)
 - [Largest number in K swaps](./largest-number-in-k-swaps.md)
+- [Find in Mountain Array](./find-in-mountain-array.md)
