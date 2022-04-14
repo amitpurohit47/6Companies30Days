@@ -22,7 +22,32 @@ Output: 6
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    bool canIPlace(vector<int>& nums, int mid, int m){
+        int i,j=0,sum=0,n=nums.size();
+        for(i=0;i<n;i++){
+            if(j>m) return false;
+            if(nums[i]>mid) return false;
+            if(sum+nums[i]<=mid) sum+=nums[i];
+            else sum=nums[i],j++;
+        }
+        j++;
+        return j<=m;
+    }
+    
+    int shipWithinDays(vector<int>& weights, int days) {
+        int mx=-1,sum=0;
+        for(auto g:weights) mx=max(mx,g),sum+=g;
+        int lo = mx,hi=sum;
+        while(lo<=hi){
+            int mid = lo + (hi-lo)/2;
+            // cout<<mid<<"\n";
+            if(canIPlace(weights,mid,days)) hi = mid - 1;
+            else lo = mid + 1;
+        }
+        return lo;
+    }
+};
 ```
-
-### Accepted
