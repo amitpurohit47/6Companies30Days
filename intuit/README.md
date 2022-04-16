@@ -11,3 +11,4 @@
 - [Number of Boomerangs](./number-of-boomerangs.md)
 - [Pacific Atlantic Water Flow](./pacific-atlantic-water-flow.md)
 - [Number of Provinces](./number-of-provinces.md)
+- [Construct Quad Tree](./construct-quad-tree.md)

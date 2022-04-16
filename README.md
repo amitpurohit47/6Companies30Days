@@ -97,7 +97,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Intuit (9/15)</summary>
+<summary style="font-size: 1.2em">Intuit (10/15)</summary>
 
 | Sr  | Problems                                                                                       | TryIt                                                                                                                   | Status |
 | --- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -111,7 +111,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 8   | [Number of Boomerangs](./intuit/number-of-boomerangs.md)                                       | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/number-of-boomerangs/)                                 | ✅     |
 | 9   | [Pacific Atlantic Water Flow](./intuit/pacific-atlantic-water-flow.md)                         | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/pacific-atlantic-water-flow/)                          | ✅     |
 | 10  | [Number of Provinces](./intuit/number-of-provinces.md)                                         | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/number-of-provinces/)                                  | ✅     |
-| 11  | [Construct Quad Tree](./intuit/construct-quad-tree.md)                                         | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/construct-quad-tree/)                                  | ❌     |
+| 11  | [Construct Quad Tree](./intuit/construct-quad-tree.md)                                         | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/construct-quad-tree/)                                  | ✅     |
 | 12  | [Course Schedule II](./intuit/course-schedule-ii.md)                                           | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/course-schedule-ii/)                                   | ❌     |
 | 13  | [Minimum Swaps to Arrange a Binary Grid](./intuit/min-swaps-to-arrange-binary-grid.md)         | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/)               | ❌     |
 | 14  | [As Far from Land as Possible](./intuit/as-far-from-land-as-possible.md)                       | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/as-far-from-land-as-possible/)                         | ❌     |
