@@ -24,7 +24,29 @@ Output: 3
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    void dfs(vector<vector<int>>& g,int u,vector<int> &vis){
+        if(!vis[u]){
+            vis[u] = 1;
+            for(int i=0;i<vis.size();i++){
+                if(g[u][i] == 1 && !vis[i]) dfs(g,i,vis);
+            }
+        }
+    }
+    
+    int findCircleNum(vector<vector<int>>& g) {
+        int n=g.size(),ans=0;
+        vector<int> vis(n,0);
+        for(int i=0;i<n;i++){
+            if(!vis[i]){
+                ans++;
+                dfs(g,i,vis);
+            }
+        }
+        return ans;
+    }
+};
 ```
 
-### Accepted

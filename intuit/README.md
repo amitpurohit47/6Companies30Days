@@ -10,3 +10,4 @@
 - [Capacity To Ship Packages Within D Days](./capacity-to-ship-packages-within-d-days.md)
 - [Number of Boomerangs](./number-of-boomerangs.md)
 - [Pacific Atlantic Water Flow](./pacific-atlantic-water-flow.md)
+- [Number of Provinces](./number-of-provinces.md)
