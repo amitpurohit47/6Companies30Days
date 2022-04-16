@@ -24,7 +24,45 @@ Output: [[0,0],[0,1],[1,0],[1,1]]
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    void dfs(vector<vector<int>>& heights,int i,int j,vector<vector<int>>& ocean,int prev){
+        if(i<0 or j<0 or i>=heights.size() or j>=heights[0].size()) return;
+        if(heights[i][j] < prev or ocean[i][j]) return;
+        ocean[i][j] = 1;
+        dfs(heights,i+1,j,ocean,heights[i][j]);
+        dfs(heights,i,j+1,ocean,heights[i][j]);
+        dfs(heights,i,j-1,ocean,heights[i][j]);
+        dfs(heights,i-1,j,ocean,heights[i][j]);
+    }
+    
+    vector<vector<int>> pacificAtlantic(vector<vector<int>>& heights) {
+        int i,j,n=heights.size(),m=heights[0].size();
+        vector<vector<int>> pac(n,vector<int> (m,0)),atl(n,vector<int> (m,0)),ans;
+        
+        for(i=0;i<m;i++){
+            dfs(heights,0,i,pac,INT_MIN);
+            dfs(heights,n-1,i,atl,INT_MIN);
+        }
+        
+        for(i=0;i<n;i++){
+            dfs(heights,i,0,pac,INT_MIN);
+            dfs(heights,i,m-1,atl,INT_MIN);
+        }
+        
+        for(i=0;i<n;i++){
+            for(j=0;j<m;j++){
+                if(pac[i][j] && atl[i][j]){
+                    vector<int> v(2);
+                    v[0] = i;
+                    v[1] = j;
+                    ans.push_back(v);
+                }
+            }
+        }
+        
+        return ans;
+    }
+};
 ```
-
-### Accepted
