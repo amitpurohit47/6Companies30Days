@@ -13,3 +13,4 @@
 - [Number of Provinces](./number-of-provinces.md)
 - [Construct Quad Tree](./construct-quad-tree.md)
 - [Course Schedule II](./course-schedule-ii.md)
+- [Koko Eating Bananas](./koko-eating-bananas.md)

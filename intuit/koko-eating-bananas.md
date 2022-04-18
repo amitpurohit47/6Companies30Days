@@ -24,7 +24,25 @@ Output: 30
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    int fun(vector<int>& piles,int mid){
+        int ans = 0;
+        for(auto g:piles) ans+=ceil(g*1.0/mid);
+        return ans;
+    }
+    
+    int minEatingSpeed(vector<int>& piles, int h) {
+        sort(piles.begin(),piles.end());
+        int lo = 1,hi = piles[piles.size()-1];
+        while(lo<=hi){
+            int mid = lo + (hi-lo)/2;
+            // cout<<lo<<" "<<hi<<endl;
+            if(fun(piles,mid)<=h) hi = mid - 1;
+            else lo = mid + 1;
+        }
+        return lo;
+    }
+};
 ```
-
-### Accepted
