@@ -97,7 +97,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Intuit (12/15)</summary>
+<summary style="font-size: 1.2em">Intuit (13/15)</summary>
 
 | Sr  | Problems                                                                                       | TryIt                                                                                                                   | Status |
 | --- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------ |
