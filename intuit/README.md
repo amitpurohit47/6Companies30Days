@@ -13,4 +13,5 @@
 - [Number of Provinces](./number-of-provinces.md)
 - [Construct Quad Tree](./construct-quad-tree.md)
 - [Course Schedule II](./course-schedule-ii.md)
+- [Minimum Swaps to Arrange a Binary Grid](./min-swaps-to-arrange-binary-grid.md)
 - [Koko Eating Bananas](./koko-eating-bananas.md)

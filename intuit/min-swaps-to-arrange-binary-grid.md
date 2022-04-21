@@ -24,7 +24,33 @@ Output: -1
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    int minSwaps(vector<vector<int>>& grid) {
+        int n = grid.size(),ans=0;
+        vector<int> v(n);
+        
+        for(int i=0;i<n;i++){
+            int cnt=0,j=n-1;
+            while(j>=0 && grid[i][j] == 0) cnt++,j--;
+            v[i] = cnt;
+        }
+        
+        for(auto g:v) cout<<g<<" ";
+        
+        for(int i=0;i<n;i++){
+            int j = i,req=n-i-1;
+            while(j<n && v[j]<req) j++;
+            if(j==n) return -1;
+            ans+=(j-i);
+            while(j>i){
+                v[j] = v[j-1];
+                j--;
+            }
+        }
+        
+        return ans;
+    }
+};
 ```
 
-### Accepted
