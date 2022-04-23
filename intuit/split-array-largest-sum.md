@@ -20,7 +20,32 @@ Output: 9
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    int canIPlace(vector<int>& v, int m, int mid){
+        int j=0,sum=0;
+        for(auto g:v){
+            sum+=g;
+            if(j==m) break;
+            if(sum>mid){
+                sum=g;
+                j++;
+            }
+        }
+        j++;
+        return j<=m;
+    }
+    
+    int splitArray(vector<int>& v, int m) {
+        int mx = *max_element(v.begin(),v.end()),lo = mx,hi = accumulate(v.begin(),v.end(),0),ans=INT_MAX;
+        while(lo<=hi){
+            int mid = lo + (hi-lo)/2;
+            if(canIPlace(v,m,mid)) hi = mid - 1,ans=min(ans,mid);
+            else lo = mid + 1;
+        }
+        return ans;
+    }
+};
 ```
 
-### Accepted
