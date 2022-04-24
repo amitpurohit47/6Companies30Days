@@ -22,12 +22,33 @@ Output: 0.30000
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) {
+        vector<double> dist(n,0);
+        dist[start] = 1.0;
+        vector<vector<pair<int,double>>> g(n);
+        for(int i=0;i<edges.size();i++){
+            g[edges[i][0]].push_back({edges[i][1],succProb[i]});
+            g[edges[i][1]].push_back({edges[i][0],succProb[i]});
+        }
+        priority_queue<pair<double,int>> pq;
+        pq.push({1.0,start});
+        while(!pq.empty()){
+            double d = pq.top().first;
+            int u = pq.top().second;
+            pq.pop();
+            for(auto v:g[u]){
+                if(d * v.second > dist[v.first]){
+                    dist[v.first] = d * v.second;
+                    pq.push({dist[v.first],v.first});
+                }
+            }
+        }
+        return dist[end];
+    }
+};
 ```
 
-### Approach 2 (Error on Test Case 9)
-```cpp
 
-```
-
-### Accepted
