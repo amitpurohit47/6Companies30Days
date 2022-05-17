@@ -22,7 +22,13 @@ Find the minimum hieght H of the triangle that can be formed using these N dots.
 
 ### Solution
 ```cpp
-
+class Solution{
+public:
+    int height(int n){
+        // code here
+        int a = (sqrt(1+8*n) - 1)/2;
+        return a;
+    }
+};
 ```
 
-### Accepted
