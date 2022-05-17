@@ -24,7 +24,20 @@ Output: true
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    map<pair<int,int>,int> mp;
+    
+    int rec(vector<int>& piles,int i,int j){
+        if(i>j) return 0;
+        if(mp[{i,j}]) return mp[{i,j}];
+        mp[{i,j}] = max(piles[i]+min(rec(piles,i+2,j),rec(piles,i+1,j-1)),piles[j]+min(rec(piles,i,j-2),rec(piles,i+1,j-1)));
+        return mp[{i,j}];
+    }
+    
+    bool stoneGame(vector<int>& piles) {
+        return rec(piles,0,piles.size()-1) > accumulate(piles.begin(),piles.end(),0)/2;
+    }
+};
 ```
-
-### Accepted

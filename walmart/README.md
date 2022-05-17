@@ -3,3 +3,4 @@
 
 ### Solved Problems
 - [Path with Maximum Probability](./path-with-maximum-probability.md)
+- [Stone Game](./stone-game.md)
