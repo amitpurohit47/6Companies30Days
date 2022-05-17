@@ -26,10 +26,7 @@ Given a Binary Tree of size N , where each node can have positive or negative va
 ```cpp
 class Solution {
   public:
-  
-    // Convert a given tree to a tree where every node contains sum of values of
-    // nodes in left and right subtrees in the original tree
-    
+
     int rec(Node* root){
         if(root==NULL) return 0;
         int a = root->data;
