@@ -18,7 +18,23 @@ Given a A X B matrix with your initial position at the top-left cell, find the n
 
 ### Solution
 ```cpp
+class Solution
+{
+    public:
+    //Function to find total number of unique paths.
+    int NumberOfPath(int a, int b)
+    {
+        //code here
+        vector<vector<int>> v(a,vector<int> (b));
+        v[a-1][b-1] = 1;
+        for(int i=a-1;i>=0;i--){
+            for(int j=b-1;j>=0;j--){
+                if(i<a-1) v[i][j] = v[i+1][j];
+                if(j<b-1) v[i][j] += v[i][j+1];
+            }
+        }
+        return v[0][0];
+    }
+};
 
 ```
-
-### Accepted
