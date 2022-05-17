@@ -120,7 +120,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Walmart (6/15)</summary>
+<summary style="font-size: 1.2em">Walmart (7/15)</summary>
 
 | Sr  | Problems                                                                                                                              | TryIt                                                                                                                         | Status |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -130,7 +130,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 4   | [Number of Unique Paths](./walmart/number-of-unique-paths.md)                                                                         | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/number-of-unique-paths5339/1/)                | ✅     |
 | 5   | [Transform to Sum Tree](./walmart/transform-to-sum-tree.md)                                                                           | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1/)                     | ✅     |
 | 6   | [Power Of Numbers](./walmart/power-of-numbers.md)                                                                                     | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1/)               | ✅     |
-| 7   | [Sorted subsequence of size 3](./walmart/sorted-subsequence-of-size-3.md)                                                             | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/1/)              | ❌     |
+| 7   | [Sorted subsequence of size 3](./walmart/sorted-subsequence-of-size-3.md)                                                             | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/1/)              | ✅     |
 | 8   | [Maximum Height Tree](./walmart/maximum-height-tree.md)                                                                               | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/maximum-height-tree4803/1/)                   | ❌     |
 | 9   | [Guess Number Higher or Lower II](./walmart/guess-number-higher-or-lower-ii.md)                                                       | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)                            | ❌     |
 | 10  | [Generate Random Point in a Circle](./walmart/generate-random-point-in-a-circle.md)                                                   | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/generate-random-point-in-a-circle/)                          | ❌     |
