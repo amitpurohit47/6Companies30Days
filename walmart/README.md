@@ -7,3 +7,4 @@
 - [Remove Colored Pieces if Both Neighbors are the Same Color](./remove-colored-pieces-if-both-neighbors-are-the-same-color.md)
 - [Number of Unique Paths](./number-of-unique-paths.md)
 - [Transform to Sum Tree](./transform-to-sum-tree.md) 
+- [Power Of Numbers ](./power-of-numbers.md)

@@ -17,7 +17,25 @@ Given a number and its reverse. Find that number raised to the power of its own 
 
 ### Solution
 ```cpp
+#define MOD 1000000007
 
+class Solution{
+    public:
+    //You need to complete this fucntion
+    
+    long long power(int n,int r)
+    {
+       //Your code here
+       long long ans;
+        if(r==0) ans = 1;
+        else if(r%2){
+            ans = ((n%MOD) * (power(n,r-1)%MOD))%MOD;
+        }else{
+            ans = power(n,r/2)%MOD;
+            ans = ((ans%MOD) * (ans%MOD))%MOD;
+        }
+        return ans;
+    }
+
+};
 ```
-
-### Accepted
