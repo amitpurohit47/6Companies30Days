@@ -10,3 +10,4 @@
 - [Power Of Numbers ](./power-of-numbers.md)
 - [Sorted subsequence of size 3](./sorted-subsequence-of-size-3.md)
 - [Maximum Height Tree](./maximum-height-tree.md)
+- [Guess Number Higher or Lower II](./guess-number-higher-or-lower-ii.md)
