@@ -21,7 +21,28 @@ Output
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    double rad,xc,yc;
+    Solution(double radius, double x_center, double y_center) {
+        rad = radius;
+        xc = x_center;
+        yc = y_center;
+        srand(time(0));
+    }
+    
+    double random(){
+        double res = (1.0 * rand()) / RAND_MAX;
+        return res;
+    }
+    
+    vector<double> randPoint() {
+        double len = rad * sqrt(random()), deg = 2 * M_PI * random();
+        double x = xc + len * cos(deg);
+        double y = yc + len * sin(deg);
+        vector<double> v = {x,y};
+        return v;
+    }
+};
 ```
 
-### Accepted

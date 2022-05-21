@@ -120,7 +120,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 </details>
 
 <details>
-<summary style="font-size: 1.2em">Walmart (9/15)</summary>
+<summary style="font-size: 1.2em">Walmart (10/15)</summary>
 
 | Sr  | Problems                                                                                                                              | TryIt                                                                                                                         | Status |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
@@ -133,7 +133,7 @@ In this repo I am uploading my solutions for [6Companies30Days Challenge](https:
 | 7   | [Sorted subsequence of size 3](./walmart/sorted-subsequence-of-size-3.md)                                                             | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/sorted-subsequence-of-size-3/1/)              | ✅     |
 | 8   | [Maximum Height Tree](./walmart/maximum-height-tree.md)                                                                               | [![Problem Link](./assets/gfg.svg)](https://practice.geeksforgeeks.org/problems/maximum-height-tree4803/1/)                   | ✅     |
 | 9   | [Guess Number Higher or Lower II](./walmart/guess-number-higher-or-lower-ii.md)                                                       | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/guess-number-higher-or-lower-ii/)                            | ✅     |
-| 10  | [Generate Random Point in a Circle](./walmart/generate-random-point-in-a-circle.md)                                                   | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/generate-random-point-in-a-circle/)                          | ❌     |
+| 10  | [Generate Random Point in a Circle](./walmart/generate-random-point-in-a-circle.md)                                                   | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/generate-random-point-in-a-circle/)                          | ✅     |
 | 11  | [Maximum Performance of a Team](./walmart/maximum-performance-of-a-team.md)                                                           | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/maximum-performance-of-a-team/)                              | ❌     |
 | 12  | [Find Array Given Subset Sums](./walmart/find-array-given-subset-sums.md)                                                             | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/find-array-given-subset-sums/)                               | ❌     |
 | 13  | [Find the Kth Largest Integer in the Array](./walmart/find-the-kth-largest-integer-in-the-array.md)                                   | [![Problem Link](./assets/lc.svg)](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/)                  | ❌     |
