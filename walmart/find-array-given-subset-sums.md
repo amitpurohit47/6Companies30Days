@@ -24,7 +24,40 @@ Output: [0,0]
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    map<int,int> count(vector<int>& sums){
+        map<int,int> mp;
+        for(auto g:sums) mp[g]++;
+        return mp;
+    }
+    
+    vector<int> recoverArray(int n, vector<int>& sums) {
+        vector<int> ans;
+        sort(sums.begin(),sums.end());
+        while(sums.size() > 1){
+            vector<int> exc, inc;
+            map<int,int> mp = count(sums);
+            int dif = sums[sums.size() - 1] - sums[sums.size() - 2];
+            for(auto g : sums){
+                if(mp[g]){
+                    exc.push_back(g);
+                    inc.push_back(g + dif);
+                    mp[g]--;
+                    mp[g + dif]--;
+                }
+            }
+            if(binary_search(exc.begin(),exc.end(),0)){
+                swap(sums, exc);
+                ans.push_back(dif);
+            }else{
+                swap(inc, sums);
+                ans.push_back(-dif);
+            }
+        }
+        return ans;
+    }
+};
 ```
 
-### Accepted

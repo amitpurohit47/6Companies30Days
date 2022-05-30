@@ -13,3 +13,4 @@
 - [Guess Number Higher or Lower II](./guess-number-higher-or-lower-ii.md) 
 - [Generate Random Point in a Circle](./generate-random-point-in-a-circle.md)
 - [Maximum Performance of a Team](./maximum-performance-of-a-team.md)
+- [Find Array Given Subset Sums](./find-array-given-subset-sums.md)
