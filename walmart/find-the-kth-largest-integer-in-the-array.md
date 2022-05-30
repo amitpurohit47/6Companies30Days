@@ -22,7 +22,35 @@ Output: "2"
 
 ### Solution
 ```cpp
-
+class Solution {
+public:
+    
+    class Compare{
+      public:
+      bool operator()(string a,string b){
+          if(b.length()>a.length()) return false;
+          if(a.length()>b.length()) return true;
+          return b < a;
+      }
+    };
+    
+    bool checkGreater(string a,string b){
+        if(b.length()>a.length()) return true;
+        if(b.length()<a.length()) return false;
+        return b > a;
+    }
+    
+    string kthLargestNumber(vector<string>& nums, int k) {
+        priority_queue<string,vector<string>,Compare> pq;
+        for(int i=0;i<k && i<nums.size();i++) pq.push(nums[i]);
+        for(int i=k;i<nums.size();i++){
+            if(checkGreater(pq.top(),nums[i])){
+                pq.pop();
+                pq.push(nums[i]);
+            }
+        }
+        return pq.top();
+    }
+};
 ```
 
-### Accepted
